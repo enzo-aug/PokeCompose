@@ -15,5 +15,21 @@
 local.properties
 
 # Project exclude paths
-/app/
 /gradle/
+
+# Generated files
+bin/
+gen/
+out/
+tmp/
+
+# Gradle files
+.gradle/
+build/
+config/
+build-cache/
+
+### macOS template
+*.DS_Store
+.AppleDouble
+.LSOverride
